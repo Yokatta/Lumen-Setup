@@ -3,6 +3,8 @@ Please have docker installed before running this project.
 
 navagate to project folder and run: docker-compose up -d
 
+run: cp .env.example .env
+
 for testing postman is suggested since its just API with no frontend.
 
 for php enviroment please run: docker-compose exec lumen sh
